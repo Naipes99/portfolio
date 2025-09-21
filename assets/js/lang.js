@@ -44,9 +44,15 @@ document.addEventListener("DOMContentLoaded", () => {
             "frm.modal": "Formulario enviado con éxito!",
             "frm.close": "Cerrar",
             "frm.send": "Enviar",
-            "ftr.description": "Soy desarrollador web, apasionado por la tecnología y la programación."
-            
-
+            "ftr.description": "Soy desarrollador web, apasionado por la tecnología y la programación.",
+            "project1__name": "Frases Aleatorias",
+            "project4__name": "Aplicación del tiempo",
+            "btn projects__button_DEM0":"VER DEMO",
+            "btn projects__button_CODEX":"VER CODIGO",
+            "project1__description":"Aplicación web construida con React y Vite para generar o mostrar frases inspiradoras de forma simple, clara y rápida.",  
+            "project2__description":"Catálogo interactivo de Pokémon: muestra fotos, datos y estadísticas de cada criatura, con diseño amigable y navegación rápida.",       
+            "project3__description":"Mapa interactivo de Rick y Morty que muestra ubicaciones con descripción, imágenes y navegación ágil en una interfaz intuitiva.",
+            "project4__description":"Aplicación en React que muestra el clima actual de cualquier ciudad con datos clave (temperatura, clima, localización) de forma sencilla y visual.",
 		},
 		en: {
 			"nav.home": "Home",
@@ -89,7 +95,16 @@ document.addEventListener("DOMContentLoaded", () => {
             "frm.modal": "Form submitted successfully!",
             "frm.close": "Close",
             "frm.send": "Send",
-            "ftr.description": "I am a web developer, passionate about technology and programming."
+            "ftr.description": "I am a web developer, passionate about technology and programming.",
+            "project1__name": "Random Phrases",
+            "project4__name": "Wheater App",
+            "btn projects__button_DEM0":"DEMO",
+            "btn projects__button_CODEX":"CODEX",
+            "project1__description": "Web application built with React and Vite to generate or display inspirational phrases in a simple, clear, and fast way.",  
+            "project2__description": "Interactive Pokémon catalog: shows photos, data, and stats for each creature, with a friendly design and fast navigation.",  
+            "project3__description": "Interactive Rick and Morty map that displays locations with descriptions, images, and smooth navigation in an intuitive interface.",  
+            "project4__description": "React application that shows the current weather of any city with key data (temperature, weather, location) in a simple, visual way."  
+
 
 		}
 	};

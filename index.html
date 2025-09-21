@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta name="author" content="Alejandra Olazagasti" />
+		<meta name="author" content="David Barajas" />
 		<meta name="description" content="No más de 165 caracteres" />
 		<meta
 			name="keywords"
@@ -129,22 +129,30 @@
 
 					<ul class="home__social flex--container">
 						<li class="home__social-item">
-							<a class="home__social-link" href="#" target="_blank"
+							<a class="home__social-link" 
+								href="https://www.linkedin.com/in/david-barajas-806b8520b" 
+								target="_blank"
 								><i class="bx bxl-linkedin"></i
 							></a>
 						</li>
 						<li class="home__social-item">
-							<a class="home__social-link" href="#" target="_blank"
+							<a class="home__social-link" 
+								href="https://wa.me/573138585243?text=Tu%20Mensaje%20De%20Texto" 
+								target="_blank"
 								><i class="bx bxl-whatsapp"></i
 							></a>
 						</li>
 						<li class="home__social-item">
-							<a class="home__social-link" href="#" target="_blank"
+							<a class="home__social-link" 
+								href="https://github.com/Naipes99" 
+								target="_blank"
 								><i class="bx bxl-github"></i
 							></a>
 						</li>
 						<li class="home__social-item">
-							<a class="home__social-link" href="#" target="_blank"
+							<a class="home__social-link" 
+								href="mailto:davidbarajas381@gmail.com" 
+								target="_blank"
 								><i class="bx bx-envelope"></i
 							></a>
 						</li>
@@ -318,6 +326,20 @@
 									</p>
 								</div>
 							</details>
+							<!--Card 7 -->
+							<details class="skills__cards-container" name="moreInfo">
+								<summary class="skills__cards-title flex--container">
+									<i class="bx bx-code-alt flex--container"></i>
+								</summary>
+								<div class="skills__card-container">
+									<h3 class="skills__card-title">node.js</h3>
+
+									<p class="skills__card-description"data-i18n="skl.card7">
+										Node.js es un entorno de ejecución de JavaScript del lado del servidor, 
+										eficiente y rápido, ideal para aplicaciones escalables y en tiempo real.
+									</p>
+								</div>
+							</details>
 						</div>
 					</div>
 					<div class="skills__tags flex--container">
@@ -345,23 +367,29 @@
 						<div class="projects__inner grid--container">
 							<div class="projects__image">
 								<img
-									src="assets/img/project1.jpg"
+									src="assets/img/project1.png"
 									alt="project 1"
-									title="Ecommerce Vanilla"
+									title="Frases Aleatorias"
 								/>
 							</div>
 
 							<div class="projects__info">
-								<h3 class="projects__name">Proyecto 1</h3>
-								<p class="projects__description">
-									Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+								<h3 class="project1__name" data-i18n="project1__name">Frases Aleatorias</h3>
+								<p class="project1__description" data-i18n="project1__description">
+									Aplicación web construida con React y Vite para generar o mostrar frases inspiradoras de forma simple, clara y rápida.
 								</p>
 
 								<div class="projects__buttons">
-									<button class="btn projects__button" type="button">
+									<button class="btn projects__button_DEM0" type="button"
+											onclick="window.open('https://phrases-project.netlify.app')"
+											data-i18n="btn projects__button_DEM0"
+										>
 										VER DEMO
 									</button>
-									<button class="btn projects__button" type="button">
+									<button class="btn projects__button_CODEX" type="button"
+											onclick="window.open('https://github.com/Naipes99/Phrases-Project')"
+											data-i18n="btn projects__button_CODEX"
+										>
 										VER CÓDIGO
 									</button>
 								</div>
@@ -374,22 +402,28 @@
 							<div class="projects__image">
 								<img
 									src="assets/img/project2.png"
-									alt="project 1"
+									alt="project 2"
 									title="Consumiendo API Pokemon con React"
 								/>
 							</div>
 
 							<div class="projects__info">
-								<h3 class="projects__name">Proyecto 2</h3>
-								<p class="projects__description">
-									Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+								<h3 class="project2__name">Pokedex</h3>
+								<p class="project2__description"data-i18n="project2__description">
+									Catálogo interactivo de Pokémon: muestra fotos, datos y estadísticas de cada criatura, con diseño amigable y navegación rápida.
 								</p>
 
 								<div class="projects__buttons">
-									<button class="btn projects__button" type="button">
+									<button class="btn projects__button_DEM0" type="button"
+											onclick="window.open('https://pokedex-re.netlify.app/')"
+											data-i18n="btn projects__button_DEM0"
+										>
 										VER DEMO
 									</button>
-									<button class="btn projects__button" type="button">
+									<button class="btn projects__button_CODEX" type="button"
+											onclick="window.open('https://github.com/Naipes99/Pokedex')"
+											data-i18n="btn projects__button_CODEX"
+										>
 										VER CÓDIGO
 									</button>
 								</div>
@@ -401,23 +435,29 @@
 						<div class="projects__inner grid--container">
 							<div class="projects__image">
 								<img
-									src="assets/img/project3.jpg"
+									src="assets/img/project3.png"
 									alt="project 1"
-									title="CRUD con React"
+									title="Rick & Morty"
 								/>
 							</div>
 
 							<div class="projects__info">
-								<h3 class="projects__name">Proyecto 3</h3>
-								<p class="projects__description">
-									Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+								<h3 class="project3__name">Rick & Morty</h3>
+								<p class="project3__description"data-i18n="project3__description">
+									Mapa interactivo de Rick y Morty que muestra ubicaciones con descripción, imágenes y navegación ágil en una interfaz intuitiva.
 								</p>
 
 								<div class="projects__buttons">
-									<button class="btn projects__button" type="button">
+									<button class="btn projects__button_DEM0" type="button"
+											onclick="window.open('https://rick-y-morty-locations.netlify.app/')"
+											data-i18n="btn projects__button_DEM0"
+										>
 										VER DEMO
 									</button>
-									<button class="btn projects__button" type="button">
+									<button class="btn projects__button_CODEX" type="button"
+											onclick="window.open('https://github.com/Naipes99/Rick-and-Morty')"
+											data-i18n="btn projects__button_CODEX"
+										>
 										VER CÓDIGO
 									</button>
 								</div>
@@ -436,16 +476,22 @@
 							</div>
 
 							<div class="projects__info">
-								<h3 class="projects__name">Proyecto 4</h3>
-								<p class="projects__description">
-									Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+								<h3 class="project4__name"data-i18n="project4__name">Aplicación del tiempo</h3>
+								<p class="project4__description"data-i18n="project4__description">
+									Aplicación en React que muestra el clima actual de cualquier ciudad con datos clave (temperatura, clima, localización) de forma sencilla y visual.
 								</p>
 
 								<div class="projects__buttons">
-									<button class="btn projects__button" type="button">
+									<button class="btn projects__button_DEM0" type="button"
+											onclick="window.open('https://weather-proje.netlify.app/')"
+											data-i18n="btn projects__button_DEM0"
+										>
 										VER DEMO
 									</button>
-									<button class="btn projects__button" type="button">
+									<button class="btn projects__button_CODEX" type="button"
+											onclick="window.open('https://github.com/Naipes99/weather-project')"
+											data-i18n="btn projects__button_CODEX"
+										>
 										VER CÓDIGO
 									</button>
 								</div>
@@ -589,37 +635,17 @@
 						<li class="footer__social-item">
 							<a
 								class="footer__social-link"
-								href="#"
+								href="https://wa.me/573138585243?text=Tu%20Mensaje%20De%20Texto"
 								target="_blank"
 								rel="noreferrer nofollow"
-								><i class="bx bxl-facebook"></i
+								><i class="bx bxl-whatsapp"></i
 							></a>
 						</li>
 
 						<li class="footer__social-item">
 							<a
 								class="footer__social-link"
-								href="#"
-								target="_blank"
-								rel="noreferrer nofollow"
-								><i class="bx bxl-instagram"></i
-							></a>
-						</li>
-
-						<li class="footer__social-item">
-							<a
-								class="footer__social-link"
-								href="#"
-								target="_blank"
-								rel="noreferrer nofollow"
-								><i class="bx bxl-twitter"></i
-							></a>
-						</li>
-
-						<li class="footer__social-item">
-							<a
-								class="footer__social-link"
-								href="#"
+								href="https://www.linkedin.com/in/david-barajas-806b8520b"
 								target="_blank"
 								rel="noreferrer nofollow"
 								><i class="bx bxl-linkedin"></i
