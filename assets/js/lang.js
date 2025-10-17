@@ -47,12 +47,17 @@ document.addEventListener("DOMContentLoaded", () => {
             "ftr.description": "Soy desarrollador web, apasionado por la tecnología y la programación.",
             "project1__name": "Frases Aleatorias",
             "project4__name": "Aplicación del tiempo",
+            "project5__name": "API de Banco",
             "btn projects__button_DEM0":"VER DEMO",
             "btn projects__button_CODEX":"VER CODIGO",
+            "btn projects__button_DOC":"VER DOCUMENTACION",
             "project1__description":"Aplicación web construida con React y Vite para generar o mostrar frases inspiradoras de forma simple, clara y rápida.",  
             "project2__description":"Catálogo interactivo de Pokémon: muestra fotos, datos y estadísticas de cada criatura, con diseño amigable y navegación rápida.",       
             "project3__description":"Mapa interactivo de Rick y Morty que muestra ubicaciones con descripción, imágenes y navegación ágil en una interfaz intuitiva.",
             "project4__description":"Aplicación en React que muestra el clima actual de cualquier ciudad con datos clave (temperatura, clima, localización) de forma sencilla y visual.",
+            "project4__description": "API financiera segura y escalable desarrollada con NestJS y PostgreSQL, enfocada en la gestión de usuarios, cuentas y transacciones bajo una arquitectura limpia y profesional.",
+            "project6__description": "API de manejo de conexion, acceso y verificacion a un juego multijugador",
+
 		},
 		en: {
 			"nav.home": "Home",
@@ -98,12 +103,16 @@ document.addEventListener("DOMContentLoaded", () => {
             "ftr.description": "I am a web developer, passionate about technology and programming.",
             "project1__name": "Random Phrases",
             "project4__name": "Wheater App",
+            "project5__name": "Bank API",
             "btn projects__button_DEM0":"DEMO",
             "btn projects__button_CODEX":"CODEX",
+            "btn projects__button_DOC":"DOCUMENTATION",
             "project1__description": "Web application built with React and Vite to generate or display inspirational phrases in a simple, clear, and fast way.",  
             "project2__description": "Interactive Pokémon catalog: shows photos, data, and stats for each creature, with a friendly design and fast navigation.",  
             "project3__description": "Interactive Rick and Morty map that displays locations with descriptions, images, and smooth navigation in an intuitive interface.",  
-            "project4__description": "React application that shows the current weather of any city with key data (temperature, weather, location) in a simple, visual way."  
+            "project4__description": "React application that shows the current weather of any city with key data (temperature, weather, location) in a simple, visual way.",
+            "project4__description": "Secure and scalable financial API developed with NestJS and PostgreSQL, focused on user, account, and transaction management under a clean and professional architecture.",
+            "project6__description": "API for managing connection, access, and verification to a multiplayer game.",
 
 
 		}
